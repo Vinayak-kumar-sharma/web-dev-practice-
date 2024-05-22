@@ -1,0 +1,31 @@
+body {
+  background-color: rgba(15, 17, 10, 0.904);
+}
+
+#countlable{
+  display: block;
+  color: #dedede;
+  text-align: center;
+  font-size: 21rem;
+}
+#btnCounter{
+ text-align: center;
+
+}
+.buttons{
+  padding: 10px 20px;
+  font-size: 1.5em;
+  color:whitesmoke;
+  background-color: hsl(214, 100%,74%);  
+  border-radius: 50px; /* Make buttons round */
+  border:none;
+  cursor: pointer;
+  transition:background-color 0.25s;
+  font-family: sans-serif;
+
+
+}
+.buttons:hover{
+  background-color: hsl(214, 100%, 56%);
+}
+

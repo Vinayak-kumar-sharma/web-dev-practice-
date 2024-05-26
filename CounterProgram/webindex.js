@@ -7,19 +7,19 @@
 
 
 
-const dec = document.getElementById("decreaseBtn")
+const dedecreaseBtn = document.getElementById("decreaseBtn")
 const reset = document.getElementById("resetBtn")
-const inc = document.getElementById("increaseBtn")
+const increaseBtn = document.getElementById("increaseBtn")
 const countlable = document.getElementById("countlable")
 let count = 0
 
-inc.onclick = function(){
+increaseBtn.onclick = function(){
   if(count < 150){
     count++
     countlable.textContent = count;
   }
 }
-dec.onclick = function(){
+decreaseBtn.onclick = function(){
 if(count > -150){
   count--
 

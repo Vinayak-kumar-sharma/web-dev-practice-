@@ -1,3 +1,10 @@
+/*
+>>> : Basic JavaScript code for StopWatch 
+
+*/
+
+
+
 const display =document.getElementById("display")
 
 let timer = null;
@@ -5,7 +12,7 @@ let starttimer = 0;
 let elapsedtime = 0;
 let isrunning =false;
 
-
+// Functions of the StopWatch Buttons
 function start(){
   if(!isrunning){
     starttimer = Date.now() - elapsedtime

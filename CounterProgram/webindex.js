@@ -1,7 +1,7 @@
 /*
->>>        Counter Program
+>>> : Counter Program
 
->>> This is a counter programmer related with html, css, javascript.
+>>> : This is a basic counter programmer code with the help of  html, css, javascript.
 
 */
 
